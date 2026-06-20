@@ -2,12 +2,12 @@ var users=[
     {
         "name":"John Doe",
         "gender":"Male",
-        "image":"/images/john.png"
+        "image":"/images/card.png"
     },
     {
         "name":"Jane Doe",
         "gender":"Female",
-        "image":"/images/image.png"
+        "image":"/images/toggle.png"
     }
 ]
 var curId=0;
@@ -18,7 +18,7 @@ function toggle(){
 
     //Image
     var user=users[curId];
-    document.getElementById("user-img").src=users[curId].image;
+    document.getElementById("user-img").src=user.image;
     // to do:update for name and gender !
     // name
     document.getElementById("user-name").innerText=user.name;

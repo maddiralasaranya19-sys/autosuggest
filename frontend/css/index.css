@@ -1,16 +1,16 @@
 h1{
-    color:blue; 
+    color:red; 
 }
 
 #heading2{
-    color:green;
+    color:blue;
 }
 
 .heading{
-    color:red;
+    color:green;
 }
 .para{
-    boorder:1px;
+    border:2px;
     border-color:black;
     border-style:solid;
     padding:10px;
@@ -20,33 +20,34 @@ h1{
     border:3px;
     border-color:black;
     border-style:solid;
-    padding:10px;
-    background-color:grey;
+    padding:15px;
+    background-color:lightblue;
     text-align: center;
 }
 
 .navbar a{
-    color:white;
-    padding:25px;
+    color:black;
+    padding:15px;
     text-decoration:none;
 }
 .navbar a:hover{
-    color:yellow;
-    background-color:rgb(108, 168, 188);
+    color:white;
+    background-color:lightgreen;
 }
 
 body{
-    margin : 0px;
+    margin : 0;
 }
 .card{
     border:2px solid black;
-    width:300px;
+    padding: 10px;
+    width:200px;
     text-align:center;
-    margin:30px auto;
+    margin:20px auto;
 }
 .card img{
     width:100%;
 }
 .card button{
-    margin-button:20px;
+    margin-bottom:20px;
 }
